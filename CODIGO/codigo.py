@@ -45,11 +45,9 @@ mejora_propuesta['CTi'] = mejora_propuesta.apply(calcular_cti, axis=1)
 def calcular_cc(row):
     S1 = costo_movimiento * 1
     detenciones = ((row['costo aprox. [h]'] - (1 / velocidad_crucero)) * 3600) / duracion_detencion
-    print(detenciones)
     S2 = detenciones * costo_detencion
     demoras = detenciones * duracion_detencion
     S3 = demoras * consumo_total
-
     CC = (S1 + S2) * row['flujo [veh]'] * valor_combustible * duracion_hora_punta
     return CC
 
@@ -69,6 +67,8 @@ def calcular_oc(row):
 
 asignacion_por_arcos['OC'] = asignacion_por_arcos.apply(calcular_oc, axis=1)
 mejora_propuesta['OC'] = mejora_propuesta.apply(calcular_oc, axis=1)
+
+
 
 
 
