@@ -67,4 +67,10 @@ mejora_propuesta = {
     "costo aprox. [h]": [0.625, 0.15, 0.075, 0.05, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.025, 0.135, 0.11, 0.025, 0.025, 0.025, 0.025, 0.275, 0.158]
 }
 
+variacion_costos_por_arco = {
+    "arco": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s"]
+}
+
 mejora_propuesta= pd.DataFrame(mejora_propuesta)
+
+variacion_costos_por_arco = pd.DataFrame(variacion_costos_por_arco)

@@ -68,6 +68,60 @@ def calcular_oc(row):
 asignacion_por_arcos['OC'] = asignacion_por_arcos.apply(calcular_oc, axis=1)
 mejora_propuesta['OC'] = mejora_propuesta.apply(calcular_oc, axis=1)
 
+def add_difference_column(df1, df2, column_name, df3, new_column_name):
+
+    if column_name not in df1.columns or column_name not in df2.columns:
+        raise ValueError(f"La columna '{column_name}' no está en ambos DataFrames.")
+    
+    # Asegúrate de que los índices de df1 y df2 sean compatibles
+    if not df1.index.equals(df2.index):
+        raise ValueError("Los índices de los DataFrames no coinciden.")
+
+    # Realiza la resta y agrega al tercer DataFrame
+    df3[new_column_name] = df1[column_name] - df2[column_name]
+    
+    return df3
+
+variacion_costos_por_arco = add_difference_column(asignacion_por_arcos, mejora_propuesta, 'CTi', variacion_costos_por_arco, 'Variacion CTi')
+variacion_costos_por_arco = add_difference_column(asignacion_por_arcos, mejora_propuesta, 'CC', variacion_costos_por_arco, 'Variacion CC')
+variacion_costos_por_arco = add_difference_column(asignacion_por_arcos, mejora_propuesta, 'OC', variacion_costos_por_arco, 'Variacion OC')
+
+
+
+CTi_inicial = asignacion_por_arcos['CTi'].sum()
+CC_inicial = asignacion_por_arcos['CC'].sum()
+OC_inicial = asignacion_por_arcos['OC'].sum()
+
+CTi_mejora = mejora_propuesta['CTi'].sum()
+CC_mejora = mejora_propuesta['CC'].sum()
+OC_mejora = mejora_propuesta['OC'].sum()
+
+print('Los costos iniciale spor arco son los siguientes: \n')
+print(asignacion_por_arcos)
+print('')
+
+print('Los costos de la mejora propuesta por arco son los siguientes: \n')
+print(mejora_propuesta)
+print('')
+
+print('la variacion de los costos por arco es la siguiente: \n')
+print(variacion_costos_por_arco)
+print('')
+
+print('La variacion de costo total es:')
+print(((CTi_inicial + CC_inicial + OC_inicial) - (CTi_mejora + CC_mejora + OC_mejora)))
+print('Es decir, se logra reducir los costos')
+
+print('El costo del proyecto es 1.000.000.000')
+print('')
+print(((CTi_inicial + CC_inicial + OC_inicial) - (CTi_mejora + CC_mejora + OC_mejora))- 1000000000)
+print('Es decir')
+print((((CTi_inicial + CC_inicial + OC_inicial) - (CTi_mejora + CC_mejora + OC_mejora))- 1000000000)/1000000,'millones de ganancia en el primer año')
+
+
+
+
+
 
 
 
