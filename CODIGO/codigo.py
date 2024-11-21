@@ -69,7 +69,7 @@ asignacion_por_arcos['OC'] = asignacion_por_arcos.apply(calcular_oc, axis=1)
 mejora_propuesta['OC'] = mejora_propuesta.apply(calcular_oc, axis=1)
 
 
-
+print(asignacion_por_arcos)
 
 
         

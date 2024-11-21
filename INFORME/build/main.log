@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  19 NOV 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  20 NOV 2024 21:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,7 +410,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 ) [1
 
 {C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<FOTOS/diagrama.png, id=20, 196.93575pt x 230.0595pt>
+<FOTOS/diagrama.png, id=32, 196.93575pt x 230.0595pt>
 File: FOTOS/diagrama.png Graphic file (type png)
 <use FOTOS/diagrama.png>
 Package pdftex.def Info: FOTOS/diagrama.png  used on input line 68.
@@ -433,13 +433,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 \end{document}
-                    [1
+l.79 \newpage
+              [1
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.81 \end{document}
-                    <./FOTOS/diagrama.png>] (c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.aux
+l.79 \newpage
+              <./FOTOS/diagrama.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.115 \newpage
+              ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.149 \end{document}
+                    ] (c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -448,20 +474,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E62C6D918433D5AAD12CD53CDEFE43A7;106.
+(rerunfilecheck)             Checksum: 66DB2BEED7A0C183A08AC2C78C760DB5;617.
  ) 
 Here is how much of TeX's memory you used:
- 14683 strings out of 474486
- 232614 string characters out of 5747519
- 1929542 words of memory out of 5000000
- 36781 multiletter control sequences out of 15000+600000
- 563070 words of font info for 66 fonts, out of 8000000 for 9000
+ 14714 strings out of 474486
+ 233049 string characters out of 5747519
+ 1938542 words of memory out of 5000000
+ 36795 multiletter control sequences out of 15000+600000
+ 563940 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1090b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.pdf" (2 pages, 84342 bytes).
+Output written on "c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.pdf" (4 pages, 92324 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 14350 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 18470 words of extra memory for PDF output out of 20736 (max. 10000000)
 
