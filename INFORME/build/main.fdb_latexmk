@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732030190.48728 "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" "build/main.pdf" "main" 1732030191.81632 0
+["pdflatex"] 1732150374.84194 "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" "build/main.pdf" "main" 1732150376.17141 0
   "C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730821043 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/A/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710856774 24221282 a5876e0c9e755de8e44ee96826d1c75a ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,10 +85,10 @@
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "FOTOS/diagrama.png" 1732029061 29445 451fa07d2c64f4f11e18eeb1a671d353 ""
-  "build/main.aux" 1732030191 654 e58327843435e03b8b5bb3781ca81395 "pdflatex"
-  "build/main.out" 1732030191 106 e62c6d918433d5aad12cd53cdefe43a7 "pdflatex"
-  "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" 1732030189 3050 9a293f2e82c7b8ea047a4fde384473ed ""
-  "main.tex" 1732030189 3050 9a293f2e82c7b8ea047a4fde384473ed ""
+  "build/main.aux" 1732150375 2180 b492ee2a85b2cf4addbaf1bf28a51692 "pdflatex"
+  "build/main.out" 1732150375 617 66db2beed7a0c183a08ac2c78c760db5 "pdflatex"
+  "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" 1732150372 8792 3c22f3a32d5ea4beb652b98665190dc3 ""
+  "main.tex" 1732150372 8792 3c22f3a32d5ea4beb652b98665190dc3 ""
   (generated)
   "build/main.aux"
   "build/main.log"

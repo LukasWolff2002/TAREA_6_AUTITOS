@@ -123,7 +123,7 @@ print((((CTi_inicial + CC_inicial + OC_inicial) - (CTi_mejora + CC_mejora + OC_m
 
 
 
-
+print(asignacion_por_arcos)
 
 
         
