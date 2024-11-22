@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  22 NOV 2024 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  22 NOV 2024 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,7 +420,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<FOTOS/diagrama.png, id=34, 196.93575pt x 230.0595pt>
+<FOTOS/diagrama.png, id=42, 196.93575pt x 230.0595pt>
 File: FOTOS/diagrama.png Graphic file (type png)
 <use FOTOS/diagrama.png>
 Package pdftex.def Info: FOTOS/diagrama.png  used on input line 68.
@@ -485,13 +485,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \end{document}
-                    
+l.210 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \end{document}
-                    ] (c:/Users\felip\OneDrive\Escritorio\202420\Sistema de transportes\TAREA_6_AUTITOS\INFORMEbuild\main.aux
+l.210 \newpage
+              ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6] (c:/Users\felip\OneDrive\Escritorio\202420\Sistema de transportes\TAREA_6_AUTITOS\INFORMEbuild\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -500,20 +518,20 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66DB2BEED7A0C183A08AC2C78C760DB5;617.
+(rerunfilecheck)             Checksum: 7C8F0C52BC1190E79910C037A7F9B57D;818.
  ) 
 Here is how much of TeX's memory you used:
- 14825 strings out of 473899
- 235787 string characters out of 5726499
+ 14843 strings out of 473899
+ 235927 string characters out of 5726499
  1944960 words of memory out of 5000000
- 37480 multiletter control sequences out of 15000+600000
- 564136 words of font info for 77 fonts, out of 8000000 for 9000
+ 37484 multiletter control sequences out of 15000+600000
+ 564381 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1201b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/felip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:/Users\felip\OneDrive\Escritorio\202420\Sistema de transportes\TAREA_6_AUTITOS\INFORMEbuild\main.pdf" (5 pages, 151062 bytes).
+Output written on "c:/Users\felip\OneDrive\Escritorio\202420\Sistema de transportes\TAREA_6_AUTITOS\INFORMEbuild\main.pdf" (7 pages, 156619 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 18470 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 18486 words of extra memory for PDF output out of 20736 (max. 10000000)
 
