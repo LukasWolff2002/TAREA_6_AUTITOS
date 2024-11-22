@@ -72,5 +72,5 @@ variacion_costos_por_arco = {
 }
 
 mejora_propuesta= pd.DataFrame(mejora_propuesta)
-
+print(mejora_propuesta)
 variacion_costos_por_arco = pd.DataFrame(variacion_costos_por_arco)

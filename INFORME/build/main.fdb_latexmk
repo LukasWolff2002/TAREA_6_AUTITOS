@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732150374.84194 "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" "build/main.pdf" "main" 1732150376.17141 0
+["pdflatex"] 1732302569.60315 "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" "build/main.pdf" "main" 1732302571.57377 0
   "C:/Users/A/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730821043 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/A/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710856774 24221282 a5876e0c9e755de8e44ee96826d1c75a ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -15,8 +15,13 @@
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
+  "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/A/Desktop/Programar/miketex/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -85,10 +90,10 @@
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/A/Desktop/Programar/miketex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "FOTOS/diagrama.png" 1732029061 29445 451fa07d2c64f4f11e18eeb1a671d353 ""
-  "build/main.aux" 1732150375 2180 b492ee2a85b2cf4addbaf1bf28a51692 "pdflatex"
-  "build/main.out" 1732150375 617 66db2beed7a0c183a08ac2c78c760db5 "pdflatex"
-  "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" 1732150372 8792 3c22f3a32d5ea4beb652b98665190dc3 ""
-  "main.tex" 1732150372 8792 3c22f3a32d5ea4beb652b98665190dc3 ""
+  "build/main.aux" 1732302571 2180 b492ee2a85b2cf4addbaf1bf28a51692 "pdflatex"
+  "build/main.out" 1732302571 617 66db2beed7a0c183a08ac2c78c760db5 "pdflatex"
+  "c:/Users/A/Desktop/Uandes/8vo_semestre/Sistemas de transportes/TAREA_6_AUTITOS/INFORME/main.tex" 1732302568 9556 f210f69aa8abb5d1038e14da8f3839f1 ""
+  "main.tex" 1732302568 9556 f210f69aa8abb5d1038e14da8f3839f1 ""
   (generated)
   "build/main.aux"
   "build/main.log"
