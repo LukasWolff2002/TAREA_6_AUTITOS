@@ -44,16 +44,16 @@
     GitHub: \href{https://github.com/LukasWolff2002/TAREA_4_AUTITOS}{Repositorio}
     \vspace{2cm}
     
-    \textbf{RESUMEN}
+    \textbf{ABSTRACT}
     \end{center}
     \vspace{0.5cm}
     
-    %Acá va el resumen
+    The project evaluates an infrastructure improvement in San Carlos de Apoquindo, focusing on General Blanche and Camino El Alba avenues, which will operate as one-way roads to optimize traffic flow. This proposal reduces traffic conflicts by allocating three lanes per road, resulting in significant reductions in operational costs, travel times ($CT_i$), and fuel consumption ($CC$). The results show substantial improvements in network efficiency, particularly in key arcs such as $d$, with a strategic redistribution of traffic flow. The initial investment of 1 billion pesos yields estimated net social benefits of 403 million pesos, supporting the project's economic feasibility. This analysis, conducted using social evaluation methodologies and simulated data, highlights the proposal's positive impact in terms of savings and optimization. However, to make a more informed decision, it would be crucial to incorporate factors such as environmental impact, demand elasticity, and long-term indirect effects, which could influence the outcomes.
 
 
     \vspace{1cm}
     
-    \textit{Palabras clave:} \textit{}
+    \textit{Key words:} \textit{Infrastructure, Traffic optimization, Cost efficiency, Social evaluation, Net benefits.}
     
 \end{titlepage}
 
@@ -101,8 +101,9 @@ Lo primero que se calculó a partir de la base de datos de la propuesta inicial 
 \subsection{Datos de la propuesta base}
 
 
-\begin{table}[h!]
+\begin{table}[H]
     \centering
+    \caption{Tabla de datos de flujo, costo aproximado y costos adicionales de la propuesta incial}
     \begin{tabular}{ccccccc}
         \toprule
         \textbf{Arco} & \textbf{Flujo [veh]} & \textbf{Costo aprox. [h]} & \textbf{CTi} & \textbf{CC} & \textbf{OC} \\
@@ -128,14 +129,16 @@ Lo primero que se calculó a partir de la base de datos de la propuesta inicial 
         s & 1700.00 & 0.158 & 5.420004e+08 & 9.194747e+07 & 1.618876e+08 \\
         \bottomrule
     \end{tabular}
-    \caption{Tabla de datos de flujo, costo aproximado y costos adicionales de la propuesta incial}
+    \\
+    Fuente: elaboración propia.
     \label{tab:datos_actualizados}
 \end{table}
 
 \newpage
 \subsection{Datos de la propuesta mejorada}
-\begin{table}[h!]
+\begin{table}[H]
     \centering
+    \caption{Tabla de datos de flujo, costo aproximado y costos adicionales de la propuesta mejorada}
     \begin{tabular}{ccccccc}
         \toprule
         \textbf{Arco} & \textbf{Flujo [veh]} & \textbf{Costo aprox. [h]} & \textbf{CTi} & \textbf{CC} & \textbf{OC} \\
@@ -161,7 +164,8 @@ Lo primero que se calculó a partir de la base de datos de la propuesta inicial 
         s & 1700.00 & 0.158 & 5.420004e+08 & 9.194747e+07 & 1.618876e+08 \\
         \bottomrule
     \end{tabular}
-    \caption{Tabla de datos de flujo, costo aproximado y costos adicionales de la propuesta mejorada}
+    \\
+    Fuente: elaboración propia.
     \label{tab:datos}
 \end{table}
 
@@ -171,8 +175,9 @@ Luego, se calculó la variación de los costos por arco, que se presentan en la 
 
 
 
-\begin{table}[h!]
+\begin{table}[H]
     \centering
+    \caption{Variación de los costos por arco.}
     \begin{tabular}{ccccc}
         \toprule
         \textbf{Arco} & \textbf{Variación CTi} & \textbf{Variación CC} & \textbf{Variación OC} \\
@@ -198,15 +203,17 @@ Luego, se calculó la variación de los costos por arco, que se presentan en la 
         s & 0.0         & 0.000000e+00 & 0.000000e+00 \\
         \bottomrule
     \end{tabular}
-    \caption{Variación de los costos por arco.}
+    \\
+    Fuente: elaboración propia.
     \label{tab:variacion_costos}
 \end{table}
 
 
 Finalmente, se calculó la variación total de costos sociales y la ganancia social obtenida en el primer año, que se presentan en la Tabla \ref{tab:resumen_costos}. En esta tabla, se observa que la variación total de costos sociales es positiva, lo que indica que la propuesta mejorada es socialmente beneficiosa.
 
-\begin{table}[h!]
+\begin{table}[H]
     \centering
+    \caption{Resumen tabular de costos y ganancias del proyecto.}
     \begin{tabular}{ccc}
         \toprule
         \textbf{Costo del Proyecto} & \textbf{Variación Total de Costos sociales} & \textbf{Ganancia social Obtenida} \\
@@ -214,9 +221,32 @@ Finalmente, se calculó la variación total de costos sociales y la ganancia soc
         1,000,000,000 & 1,403,182,654.38 & 403,182,654.38 \\
         \bottomrule
     \end{tabular}
-    \caption{Resumen tabular de costos y ganancias del proyecto.}
+    \\
+    Fuente: elaboración propia.
     \label{tab:resumen_costos}
 \end{table}
+
+\newpage
+
+\section{Discusiones}
+
+El modelo presentado para evaluar la mejora vial tiene puntos fuertes, pero también simplificaciones que podrían afectar su precisión y aplicabilidad. Por un lado, se basa en una metodología clara para medir beneficios económicos, como la reducción de tiempos de viaje y costos operativos. Sin embargo, los supuestos adoptados simplifican la realidad de manera significativa.
+
+Primero, considerar que todas las avenidas tienen una longitud de 1 km y una velocidad uniforme de 40 km/h ignora factores como pendientes, condiciones del pavimento o variaciones reales en el tráfico. Esto podría llevar a estimaciones inexactas de costos y beneficios.
+
+Segundo, aunque el modelo utiliza el equilibrio de Wardrop para la redistribución del flujo vehicular, no evalúa cómo cambios a largo plazo, como el aumento de la demanda inducida, podrían afectar los resultados. Tampoco se analiza el impacto en áreas cercanas ni posibles desventajas como nuevos puntos de congestión.
+
+Además, al enfocarse únicamente en horas punta, se dejan fuera beneficios o costos que ocurren durante el resto del día, como la reducción de emisiones o el desgaste de la infraestructura. También falta considerar impactos sociales como la seguridad vial o efectos sobre peatones y ciclistas.
+
+Los resultados sugieren que la mejora es económicamente viable, con beneficios netos importantes. Sin embargo, para tomar una decisión más informada sería necesario un análisis más completo, incluyendo impactos ambientales, patrones de tráfico a largo plazo y cómo esta inversión se alinea con otros objetivos de transporte sostenible.
+
+Finalizando, aunque el modelo es un buen inicio, necesita mayor detalle para asegurar que los beneficios superen los costos a nivel económico, social y ambiental.
+
+\newpage
+
+\section{Conclusiones}
+
+En conclusión, la propuesta de mejora vial muestra buenos resultados económicos, con beneficios claros y una mejor organización del tráfico en la red. Sin embargo, para estar seguros de que la inversión será realmente positiva a largo plazo, es importante incluir un análisis más completo. Esto debería considerar el impacto ambiental, los efectos sociales y cómo podría cambiar la demanda en el futuro. Con estos aspectos, se podría tomar una decisión más completa y alineada con objetivos como la sostenibilidad y el bienestar de la comunidad. Así, se aseguraría que los beneficios del proyecto sean duraderos y para todos.
 
 
 \end{document}
