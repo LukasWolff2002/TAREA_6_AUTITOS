@@ -79,19 +79,22 @@ El análisis considera las metodologías de evaluación social vistas en clase, 
 \newpage
 \section{Resultados}
 
-Lo primero que se calculó a partir de la base de datos de la propuesta inicial y la propuesta mejorada fueron los costos del tiempo, combustible y otros costos de cada arco. Estos datos se presentan en las Tablas \ref{tab:datos_actualizados} y \ref{tab:datos}.
+Lo primero que se calculó a partir de la base de datos de la propuesta inicial y la propuesta mejorada, fueron los costos de un tiempo de viaje con la ecuación \ref{eq:costo_tiempo}, el costo de combustible con la ecuación \ref{eq:costo_combustible} y los otros costos con la ecuación \ref{eq:costo_operacion}. Los resultados se presentan en la Tabla \ref{tab:datos_actualizados} para la propuesta inicial y en la Tabla \ref{tab:datos} para la propuesta mejorada.
 
 
 \begin{equation}
     CT_i = FE_i \sum_{j=1}^{NV} (VT_j \cdot \sum_{k \epsilon A_j} q_{qjk} \cdot TV_{ijk} \cdot TO_{ijk})
+    \label{eq:costo_tiempo}
 \end{equation}
 
 \begin{equation}
     CC_i = FE_i \sum_{j=1}^{NV} (VC_j \cdot \sum_{k \epsilon A_j} q_{qjk} \cdot [L_k cm_j(v_{ij})+h_{ik} cd_j(v_{ij})+ d_{ik}cr_j)])
+    \label{eq:costo_combustible}
 \end{equation}
 
 \begin{equation}
     OC_i = FE_i \sum_{j}\sum_{i} q_{ijk} L_k \cdot (CL_{ijk} \cdot VL_j + CN_{ijk} \cdot VN_j + CR_{ijk} \cdot VV_j+ CM_{ijk} \cdot VH_j) /1000
+    \label{eq:costo_operacion}
 \end{equation}
 
 
@@ -162,6 +165,12 @@ Lo primero que se calculó a partir de la base de datos de la propuesta inicial 
     \label{tab:datos}
 \end{table}
 
+\newpage
+
+Luego, se calculó la variación de los costos por arco, que se presentan en la Tabla \ref{tab:variacion_costos}. En esta tabla, se observa que los valores positivos indican una mejora en la propuesta, mientras que los valores negativos indican un empeoramiento. 
+
+
+
 \begin{table}[h!]
     \centering
     \begin{tabular}{ccccc}
@@ -194,11 +203,13 @@ Lo primero que se calculó a partir de la base de datos de la propuesta inicial 
 \end{table}
 
 
+Finalmente, se calculó la variación total de costos sociales y la ganancia social obtenida en el primer año, que se presentan en la Tabla \ref{tab:resumen_costos}. En esta tabla, se observa que la variación total de costos sociales es positiva, lo que indica que la propuesta mejorada es socialmente beneficiosa.
+
 \begin{table}[h!]
     \centering
     \begin{tabular}{ccc}
         \toprule
-        \textbf{Costo del Proyecto} & \textbf{Variación Total de Costos} & \textbf{Ganancia Obtenida} \\
+        \textbf{Costo del Proyecto} & \textbf{Variación Total de Costos sociales} & \textbf{Ganancia social Obtenida} \\
         \midrule
         1,000,000,000 & 1,403,182,654.38 & 403,182,654.38 \\
         \bottomrule

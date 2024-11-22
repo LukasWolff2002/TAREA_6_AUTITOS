@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  22 NOV 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.19)  22 NOV 2024 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -451,14 +451,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.132 \newpage
+l.135 \newpage
               ]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -470,8 +464,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \end{document}
-                    ]
+l.168 \newpage
+              ]
+Overfull \hbox (27.98827pt too wide) in paragraph at lines 210--217
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -483,12 +481,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \end{document}
+l.222 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \end{document}
+l.222 \end{document}
                     ] (c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -501,17 +499,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 66DB2BEED7A0C183A08AC2C78C760DB5;617.
  ) 
 Here is how much of TeX's memory you used:
- 14726 strings out of 474486
- 233221 string characters out of 5747519
+ 14736 strings out of 474486
+ 233332 string characters out of 5747519
  1943542 words of memory out of 5000000
- 36799 multiletter control sequences out of 15000+600000
- 563989 words of font info for 74 fonts, out of 8000000 for 9000
+ 36803 multiletter control sequences out of 15000+600000
+ 564136 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,1090b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/A/Desktop/Programar/miketex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.pdf" (5 pages, 144686 bytes).
+Output written on "c:\Users\A\Desktop\Uandes\8vo_semestre\Sistemas de transportes\TAREA_6_AUTITOS\INFORME\build\main.pdf" (5 pages, 146387 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
  18470 words of extra memory for PDF output out of 20736 (max. 10000000)
 
